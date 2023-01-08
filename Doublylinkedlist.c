@@ -120,6 +120,7 @@ void insert_speci()
         if(ptr==NULL)
         {
             printf("\nPosition not found");
+	    return;
         }
     }
     newnode->next=ptr->next;
